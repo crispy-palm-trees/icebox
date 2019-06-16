@@ -6,8 +6,8 @@ import App from "./App";
 const RootView: React.StatelessComponent<{}> = () => (
   <Fragment>
     <Helmet
-      titleTemplate='React TypeScript Boilerplate - %s'
-      defaultTitle='React TypeScript Boilerplate'
+      titleTemplate="IceBox - %s"
+      defaultTitle="IceBox"
     />
 
     <main>
