@@ -7,7 +7,7 @@ const App: React.FC = () => {
     <div className="IceboxApp wrapper">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
-          Navbar
+          icebox
         </a>
         <div className="collapse navbar-collapse d-sm-inline-flex flex-sm-row-reverse">
           <ul className="navbar-nav ml-auto">
@@ -26,62 +26,56 @@ const App: React.FC = () => {
             <li className="nav-item">
               <a className="nav-link">Calendar</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link">Hello</a>
-            </li>
           </ul>
         </div>
       </nav>
 
       <div className="app-banner">Insert Image Here</div>
-      <button className="btn">Login</button>
-      <button className="btn">Sign Up</button>
 
       <div className="app-intro">
-        <h1>Food Waste</h1>
+        <h1>Welcome to icebox</h1>
         <p>
-          Food waste is a major problem in the Metro Vancouver area. This
-          problem is caused by a general lack of awareness of the impact that
-          food waste has on the environment.
+          Too much good food wasted? Fear no more. Join the icebox community
+          today and reap the benefits. Save your food, save your money, and why
+          not save the earth as well! Discover a library full of food knowledge.
+          Learn to better preserve your food and have a personal products
+          tracker all at your fingertips.
         </p>
-        <div>
-          Join us in our efforts to help raise awareness about food waste and
-          the monetary benefits that come along with reducing food waste in the
-          Greater Vancouver area.
-        </div>
-        <img alt="Video" />
+        <div>Sign up today to start your food saving journey.</div>
       </div>
 
       <div className="app-marketing">
-        <h1>Icebox</h1>
+        <h1>icebox</h1>
         <p>
-          Icebox is a web based grocery application that keeps track of items
-          currently in your fridge as well as their expiry dates.
+          Icebox provides multiple services made to help you track the food in
+          your household.
         </p>
         <div className="row">
           <div className="col-3">
             <img />
-            <h3>Save food</h3>
+            <h3>Foodipedia</h3>
             <div>
-              Keep track of all the food in your kitchen while reducing food
-              waste. Help save the world!
+              Our greatest invention yet! The Foodipedia lets you search for any
+              food product and provides you with some information on how to
+              cook, use, preserve, and much more. Try it out today!
             </div>
           </div>
           <div className="col-3">
             <img />
-            <h3>Save money</h3>
+            <h3>Food Tracker</h3>
             <div>
-              Stay up to date with your finances as we show how much money you
-              could potentially be saving!
+              Keep track of all the food in your home with a handy calendar tool
+              which provides personalized notifications sent to your phone or
+              email.
             </div>
           </div>
           <div className="col-3">
             <img />
-            <h3>Save the environment</h3>
+            <h3>Grocery Shopper</h3>
             <div>
-              Its in the name! Keep track of your food's expiry dates with our
-              reminders. Our calendar views will keep you posted on your food's
-              life.
+              Our system takes your weekly/monthly grocery shopping habits and
+              learns about you, generating grocery lists with recommendations
+              for your next shopping trip.
             </div>
           </div>
         </div>
@@ -93,32 +87,41 @@ const App: React.FC = () => {
           <img className="col-6" alt="group-photo" />
           <div>
             <p>
-              We are a group of BCIT students with a mission to end food waste.
-              In collaboration with Metro Vancouver, we've created Icebox, a web
-              application that keeps track of the grocery items in your
-              possession, to help in our fight against food waste.
+              We are Crispy Palm Trees; a pair of software developers,
+              passionate on reducing food waste with the help of modern
+              technology. Together, we want to provide a way to further preserve
+              the earth we live on today. Help us acheive or dream of automating
+              the food preservation process! Feel free to visit our github repo
+              and contribute to this open source project. Let us prolong our
+              stay on earth as long as possible!
             </p>
-            <img alt="metro-vancouver-logo" />
-            <img alt="bcit-logo" />
           </div>
         </div>
         <div className="profiles">
           <div className="profile-card">
             <img />
-            <div>Fname Lname</div>
-            <div>Role</div>
+            <div>Shelzebub</div>
+            <div>Turkey</div>
             <div className="row">
-              <img className="col-6" alt="email" />
-              <img className="col-6" alt="linkedin" />
+              <a href="">
+                <img className="col-6" alt="email" />
+              </a>
+              <a href="">
+                <img className="col-6" alt="linkedin" />
+              </a>
             </div>
           </div>
           <div className="profile-card">
             <img />
-            <div>Fname Lname</div>
-            <div>Role</div>
+            <div>Jaxon</div>
+            <div>Eggroll</div>
             <div className="row">
-              <img className="col-6" alt="email" />
-              <img className="col-6" alt="linkedin" />
+              <a href="">
+                <img className="col-6" alt="email" />
+              </a>
+              <a href="">
+                <img className="col-6" alt="linkedin" />
+              </a>
             </div>
           </div>
         </div>
@@ -130,52 +133,22 @@ const App: React.FC = () => {
             <img alt="friends" />
           </div>
           <div className="col-6">
-            <h1>Our Freinds split screen</h1>
-            <p>Check out our friends who also love to reduce food waste!</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="app-affiliates">
-        <h1>Affiliates</h1>
-        <div className="affiliates-card">
-          <h1>Affliate 1</h1>
-          <div className="row">
-            <img className="col-6" alt="affiliate1-img" />
-            <div className="col-6">Something about the affiliate here!</div>
-          </div>
-        </div>
-        <div className="affiliates-card">
-          <h1>Affliate 2</h1>
-          <div className="row">
-            <img className="col-6" alt="affiliate2-img" />
-            <div className="col-6">Something about the affiliate here!</div>
-          </div>
-        </div>
-        <div className="affiliates-card">
-          <h1>Affliate 3</h1>
-          <div className="row">
-            <img className="col-6" alt="affiliate3-img" />
-            <div className="col-6">Something about the affiliate here!</div>
+            <h1>Say hello!</h1>
+            <p>Email or give us a call</p>
           </div>
         </div>
       </div>
 
       <footer>
-        <div className="row">
-          <div className="col-6">
-            <h2>Grow with us!</h2>
-            <div>We are open source. Help grow Icebox!</div>
-            <button>Collaborate</button>
-          </div>
-          <div className="col-6">
-            <h2>Friends</h2>
-            <img alt="aff1" />
-            <img alt="aff2" />
-            <img alt="aff3" />
-          </div>
+        <div className="">
+          <h2>Save with us!</h2>
+          <div>We are open source. Help improve icebox!</div>
+          <button>Collaborate</button>
         </div>
-        <div>&copy;2019 Copyright Crispy Palm Trees</div>
+        <div>
+          &copy;2019 Copyright Crispy Palm Trees | Software Developer | Zero
+          Food Waste
+        </div>
       </footer>
     </div>
   );

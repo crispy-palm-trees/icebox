@@ -5,14 +5,11 @@ import App from "./App";
 
 const RootView: React.StatelessComponent<{}> = () => (
   <Fragment>
-    <Helmet
-      titleTemplate="IceBox - %s"
-      defaultTitle="IceBox"
-    />
+    <Helmet titleTemplate="IceBox - %s" defaultTitle="IceBox" />
 
     <main>
       <Switch>
-        <Route path="/" component={App}/>
+        <Route path="/" component={App} />
       </Switch>
     </main>
   </Fragment>
