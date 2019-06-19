@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { Route, Switch } from "react-router-dom";
-import App from "./App";
+import App from "./App/App";
 
 const RootView: React.StatelessComponent<{}> = () => (
   <Fragment>
