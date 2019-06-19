@@ -3,19 +3,27 @@ import logo from "./logo.svg";
 import "./App.css";
 
 // images
+import banner from "./banner.jpg";
+import goose from "./goose.jpg";
+import swan from "./swan.jpg";
+
+import github from "./github.png";
+import email from "./email.png";
+import linkedin from "./linkedin.png";
 
 const App: React.FC = () => {
   return (
     <div className="IceboxApp wrapper">
       <div className="app-banner">
-        <img alt="banner" />
+        <img id="banner" alt="banner" src={banner} />
       </div>
+
       <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand" href="#">
           icebox
         </a>
         <div className="collapse navbar-collapse d-sm-inline-flex flex-sm-row-reverse">
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ml-auto" id="navList">
             <li className="nav-item active">
               <a className="nav-link">Home</a>
             </li>
@@ -35,7 +43,7 @@ const App: React.FC = () => {
         </div>
       </nav>
 
-      <div className="content">
+      <div className="app-content">
         <div className="app-intro">
           <h1>Welcome to icebox</h1>
           <p>
@@ -46,6 +54,10 @@ const App: React.FC = () => {
             products tracker all at your fingertips.
           </p>
           <div>Sign up today to start your food saving journey.</div>
+          <div className="button-group">
+            <button>Login</button>
+            <button>Sign-up</button>
+          </div>
         </div>
 
         <div className="app-marketing">
@@ -54,7 +66,7 @@ const App: React.FC = () => {
             icebox provides multiple services made to help you track the food in
             your household.
           </p>
-          <div className="row services">
+          <div className="row app-services">
             <div className="col-4">
               <img alt="book" />
               <h3>Foodipedia</h3>
@@ -87,45 +99,49 @@ const App: React.FC = () => {
 
         <div className="app-about">
           <h1>Who are we?</h1>
-          <div className="row">
-            <img className="col-6" alt="cpt logo" />
-            <div>
-              <p>
-                We are Crispy Palm Trees; a pair of software developers,
-                passionate on reducing food waste with the help of modern
-                technology. Together, we want to provide a way to further
-                preserve the earth we live on today. Help us acheive or dream of
-                automating the food preservation process! Feel free to visit our
-                github repo and contribute to this open source project. Let us
-                prolong our stay on earth as long as possible!
-              </p>
-            </div>
-          </div>
+          <img className="crispy-logo" alt="cpt logo" />
+          <p className="who-paragraph">
+            We are Crispy Palm Trees; a pair of software developers, passionate
+            on reducing food waste with the help of modern technology. Together,
+            we want to provide a way to further preserve the earth we live on
+            today. Help us acheive or dream of automating the food preservation
+            process! Feel free to visit our github repo and contribute to this
+            open source project. Let us prolong our stay on earth as long as
+            possible!
+          </p>
           <div className="profiles">
             <div className="row">
               <div className="profile-card col-6">
-                <img />
+                <img src={goose} alt="goose" />
                 <div>Jaxon</div>
-                <div>Kitchen</div>
-                <div className="row">
+                <div>Goose</div>
+                <div>
                   <a href="">
-                    <img className="col-6" alt="email" />
+                    <img className="custom-icon" src={email} alt="email" />
                   </a>
                   <a href="">
-                    <img className="col-6" alt="linkedin" />
+                    <img
+                      className="custom-icon"
+                      src={linkedin}
+                      alt="linkedin"
+                    />
                   </a>
                 </div>
               </div>
               <div className="profile-card col-6">
-                <img />
+                <img src={swan} alt="swan" />
                 <div>Shelzebub</div>
-                <div>Sushi Bar</div>
-                <div className="row">
+                <div>Swan</div>
+                <div>
                   <a href="">
-                    <img className="col-6" alt="email" />
+                    <img className="custom-icon" src={email} alt="email" />
                   </a>
                   <a href="">
-                    <img className="col-6" alt="linkedin" />
+                    <img
+                      className="custom-icon"
+                      src={linkedin}
+                      alt="linkedin"
+                    />
                   </a>
                 </div>
               </div>
@@ -146,14 +162,54 @@ const App: React.FC = () => {
         </div>
       </div>
       <footer>
-        <div className="">
-          <h2>Save with us!</h2>
-          <div>We are open source. Help improve icebox!</div>
-          <button>Collaborate</button>
+        <div className="row footer-filler-wrapper">
+          <div className="footer-filler col-6">
+            <div className="social-media-icons">
+              <div>Connect with us</div>
+              <div>We are open source. Help improve icebox!</div>
+              <button>Collaborate</button>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                className="facebook"
+              >
+                {/* <img src="./images/facebook-logo.png" alt="facebook" /> */}
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                className="linkedin"
+              >
+                {/* <img src="./images/linkedin-logo.png" alt="linked" /> */}
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                className="instagram"
+              >
+                {/* <img src="./images/instagram-logo.png" alt="instagram" /> */}
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                className="twitter"
+              >
+                {/* <img src="./images/twitter-logo.png" alt="twitter" /> */}
+              </a>
+            </div>
+          </div>
+          <div className="footer-about-company col-6">
+            <strong>Crispy Palm Trees</strong>
+            <br />
+            10153 King George Blvd, Surrey, BC V3T 2W1 <br />
+            (604)000-0000
+          </div>
         </div>
-        <div>
-          &copy;2019 Copyright Crispy Palm Trees | Software Developer | Zero
-          Food Waste
+
+        <div className="footer-copyright">
+          <hr />
+          &copy; 2019 Copyright Crispy Palm Trees | All rights reserved |
+          Software Developer | Zero Food Waste
         </div>
       </footer>
     </div>

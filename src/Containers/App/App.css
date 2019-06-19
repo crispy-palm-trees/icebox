@@ -31,3 +31,52 @@
     transform: rotate(360deg);
   }
 }
+
+.app-banner {
+  position: absolute;
+  height: 500px;
+  overflow: hidden;
+}
+
+.app-banner img {
+  width: 100%;
+}
+
+.app-content {
+  position: relative;
+  padding: 0px 50px;
+}
+
+.app-intro {
+  text-align: start;
+  padding: 100px 0px;
+  color: white;
+  font-weight: 400;
+}
+
+.app-marketing {
+  padding: 100px 0px;
+}
+
+.app-marketing h1,
+.app-marketing p {
+  text-align: center;
+}
+
+.app-services {
+  text-align: start;
+}
+
+.crispy-logo {
+  display: inline;
+}
+
+.who-paragraph {
+  padding: 10px 20px;
+  border-left: 3px solid #334120;
+}
+
+.custom-icon {
+  width: 30px;
+  height: 30px;
+}
