@@ -32,9 +32,29 @@
   }
 }
 
+.block-web {
+  padding: 0 20vw;
+}
+
+.block-mobile {
+  padding: 0 10vw;
+}
+
+.center-icon {
+  text-align: center;
+}
+
+.custom-icon {
+  width: 30px;
+  height: 30px;
+}
+
 .app-banner {
   position: absolute;
   height: 500px;
+  width: 100%;
+  background-image: url("./banner2.jpg");
+  background-repeat: repeat-x;
   overflow: hidden;
 }
 
@@ -44,18 +64,23 @@
 
 .app-content {
   position: relative;
-  padding: 0px 50px;
 }
 
-.app-intro {
+.button-group {
+  height: 500px;
+}
+
+.app-intro p {
+  border-left: 3px solid #334120;
   text-align: start;
-  padding: 100px 0px;
-  color: white;
+  padding: 10px 20px;
   font-weight: 400;
 }
 
 .app-marketing {
+  background-color: #252525;
   padding: 100px 0px;
+  color: white;
 }
 
 .app-marketing h1,
@@ -73,10 +98,9 @@
 
 .who-paragraph {
   padding: 10px 20px;
-  border-left: 3px solid #334120;
 }
 
-.custom-icon {
-  width: 30px;
-  height: 30px;
+#map {
+  height: 96%;
+  width: 100%;
 }

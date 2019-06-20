@@ -3,20 +3,19 @@ import logo from "./logo.svg";
 import "./App.css";
 
 // images
-import banner from "./banner.jpg";
 import goose from "./goose.jpg";
 import swan from "./swan.jpg";
-
 import github from "./github.png";
 import email from "./email.png";
 import linkedin from "./linkedin.png";
+import book from "./book.png";
+import list from "./list.png";
+import calendar from "./calendar.png";
 
 const App: React.FC = () => {
   return (
     <div className="IceboxApp wrapper">
-      <div className="app-banner">
-        <img id="banner" alt="banner" src={banner} />
-      </div>
+      <div className="app-banner" />
 
       <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand" href="#">
@@ -44,7 +43,11 @@ const App: React.FC = () => {
       </nav>
 
       <div className="app-content">
-        <div className="app-intro">
+        <div className="button-group">
+          <button>Login</button>
+          <button>Sign-up</button>
+        </div>
+        <div className="app-intro block-web">
           <h1>Welcome to icebox</h1>
           <p>
             Too much good food wasted? Fear no more. Join the icebox community
@@ -54,21 +57,19 @@ const App: React.FC = () => {
             products tracker all at your fingertips.
           </p>
           <div>Sign up today to start your food saving journey.</div>
-          <div className="button-group">
-            <button>Login</button>
-            <button>Sign-up</button>
-          </div>
         </div>
 
-        <div className="app-marketing">
+        <div className="app-marketing block-web">
           <h1>Use icebox</h1>
           <p>
             icebox provides multiple services made to help you track the food in
             your household.
           </p>
-          <div className="row app-services">
+          <div className="row app-services block-web">
             <div className="col-4">
-              <img alt="book" />
+              <div className="center-icon">
+                <img src={book} alt="book" />
+              </div>
               <h3>Foodipedia</h3>
               <div>
                 Our greatest invention yet! The Foodipedia lets you search for
@@ -77,7 +78,9 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="col-4">
-              <img alt="timer" />
+              <div className="center-icon">
+                <img src={calendar} alt="calendar" />
+              </div>
               <h3>Food Tracker</h3>
               <div>
                 Keep track of all the food in your home with a handy calendar
@@ -86,7 +89,9 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="col-4">
-              <img alt="list" />
+              <div className="center-icon">
+                <img src={list} alt="list" />
+              </div>
               <h3>Grocery Shopper</h3>
               <div>
                 Our system takes your weekly/monthly grocery shopping habits and
@@ -97,7 +102,7 @@ const App: React.FC = () => {
           </div>
         </div>
 
-        <div className="app-about">
+        <div className="app-about block-web">
           <h1>Who are we?</h1>
           <img className="crispy-logo" alt="cpt logo" />
           <p className="who-paragraph">
@@ -149,10 +154,13 @@ const App: React.FC = () => {
           </div>
         </div>
 
-        <div className="app-affiliates-banner">
+        <div className="app-contact block-web">
           <div className="row">
             <div className="col-6">
-              <img alt="friends" />
+              <div id="map" />
+              <p className="address">
+                Our Location: 10153 King George Blvd, Surrey, BC V3T 2W1
+              </p>
             </div>
             <div className="col-6">
               <h1>Say hello!</h1>
