@@ -1,16 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from "../../logo.svg";
 import "./App.css";
 
 // images
-import goose from "./goose.jpg";
-import swan from "./swan.jpg";
-import github from "./github.png";
-import email from "./email.png";
-import linkedin from "./linkedin.png";
-import book from "./book.png";
-import list from "./list.png";
-import calendar from "./calendar.png";
+import goose from "./images/goose.jpg";
+import swan from "./images/swan.jpg";
+import github from "./images/github.png";
+import email from "./images/email.png";
+import linkedin from "./images/linkedin.png";
+import book from "./images/book.png";
+import list from "./images/list.png";
+import calendar from "./images/calendar.png";
 
 const App: React.FC = () => {
   return (
