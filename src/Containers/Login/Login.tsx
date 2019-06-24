@@ -6,30 +6,12 @@ const Login: React.FC = () => {
     <div id="loginContainer">
       <div id="loginTitle">Login with your icebox account</div>
       <div className="input-row">
-        <img
-          className="login-icons"
-          src="../../assets/images/username.png"
-          alt="Email Icon"
-        />
-        <input
-          className="login-input"
-          id="email"
-          type="text"
-          placeholder="Enter your email address"
-        />
+        <img className="login-icons" src="../../assets/images/username.png" alt="Email Icon" />
+        <input className="login-input" id="email" type="text" placeholder="Enter your email address" />
       </div>
       <div className="input-row">
-        <img
-          className="login-icons"
-          src="../../assets/images/password.png"
-          alt="Password Icon"
-        />
-        <input
-          className="login-input"
-          id="password"
-          type="password"
-          placeholder="Enter your password"
-        />
+        <img className="login-icons" src="../../assets/images/password.png" alt="Password Icon" />
+        <input className="login-input" id="password" type="password" placeholder="Enter your password" />
       </div>
       <div id="forgotPasswordContainer">
         <a id="forgotPassword">Forgot Password?</a>

@@ -3,6 +3,7 @@ import logo from "../../logo.svg";
 import "./App.css";
 
 // images
+
 import goose from "./images/goose.jpg";
 import swan from "./images/swan.jpg";
 import github from "./images/github.png";
@@ -50,21 +51,16 @@ const App: React.FC = () => {
         <div className="app-intro block-web">
           <h1>Welcome to icebox</h1>
           <p>
-            Too much good food wasted? Fear no more. Join the icebox community
-            today and reap the benefits. Save your food, save your money, and
-            why not save the earth as well! Discover a library full of food
-            knowledge. Learn to better preserve your food and have a personal
-            products tracker all at your fingertips.
+            Too much good food wasted? Fear no more. Join the icebox community today and reap the benefits. Save your
+            food, save your money, and why not save the earth as well! Discover a library full of food knowledge. Learn
+            to better preserve your food and have a personal products tracker all at your fingertips.
           </p>
           <div>Sign up today to start your food saving journey.</div>
         </div>
 
         <div className="app-marketing block-web">
           <h1>Use icebox</h1>
-          <p>
-            icebox provides multiple services made to help you track the food in
-            your household.
-          </p>
+          <p>icebox provides multiple services made to help you track the food in your household.</p>
           <div className="row app-services block-web">
             <div className="col-4">
               <div className="center-icon">
@@ -72,9 +68,8 @@ const App: React.FC = () => {
               </div>
               <h3>Foodipedia</h3>
               <div>
-                Our greatest invention yet! The Foodipedia lets you search for
-                any food product and provides you with some information on how
-                to cook, use, preserve, and much more. Try it out today!
+                Our greatest invention yet! The Foodipedia lets you search for any food product and provides you with
+                some information on how to cook, use, preserve, and much more. Try it out today!
               </div>
             </div>
             <div className="col-4">
@@ -83,9 +78,8 @@ const App: React.FC = () => {
               </div>
               <h3>Food Tracker</h3>
               <div>
-                Keep track of all the food in your home with a handy calendar
-                tool which provides personalized notifications sent to your
-                phone or email.
+                Keep track of all the food in your home with a handy calendar tool which provides personalized
+                notifications sent to your phone or email.
               </div>
             </div>
             <div className="col-4">
@@ -94,9 +88,8 @@ const App: React.FC = () => {
               </div>
               <h3>Grocery Shopper</h3>
               <div>
-                Our system takes your weekly/monthly grocery shopping habits and
-                learns about you, generating grocery lists with recommendations
-                for your next shopping trip.
+                Our system takes your weekly/monthly grocery shopping habits and learns about you, generating grocery
+                lists with recommendations for your next shopping trip.
               </div>
             </div>
           </div>
@@ -106,13 +99,10 @@ const App: React.FC = () => {
           <h1>Who are we?</h1>
           <img className="crispy-logo" alt="cpt logo" />
           <p className="who-paragraph">
-            We are Crispy Palm Trees; a pair of software developers, passionate
-            on reducing food waste with the help of modern technology. Together,
-            we want to provide a way to further preserve the earth we live on
-            today. Help us acheive or dream of automating the food preservation
-            process! Feel free to visit our github repo and contribute to this
-            open source project. Let us prolong our stay on earth as long as
-            possible!
+            We are Crispy Palm Trees; a pair of software developers, passionate on reducing food waste with the help of
+            modern technology. Together, we want to provide a way to further preserve the earth we live on today. Help
+            us acheive or dream of automating the food preservation process! Feel free to visit our github repo and
+            contribute to this open source project. Let us prolong our stay on earth as long as possible!
           </p>
           <div className="profiles">
             <div className="row">
@@ -125,11 +115,7 @@ const App: React.FC = () => {
                     <img className="custom-icon" src={email} alt="email" />
                   </a>
                   <a href="">
-                    <img
-                      className="custom-icon"
-                      src={linkedin}
-                      alt="linkedin"
-                    />
+                    <img className="custom-icon" src={linkedin} alt="linkedin" />
                   </a>
                 </div>
               </div>
@@ -142,11 +128,7 @@ const App: React.FC = () => {
                     <img className="custom-icon" src={email} alt="email" />
                   </a>
                   <a href="">
-                    <img
-                      className="custom-icon"
-                      src={linkedin}
-                      alt="linkedin"
-                    />
+                    <img className="custom-icon" src={linkedin} alt="linkedin" />
                   </a>
                 </div>
               </div>
@@ -158,9 +140,7 @@ const App: React.FC = () => {
           <div className="row">
             <div className="col-6">
               <div id="map" />
-              <p className="address">
-                Our Location: 10153 King George Blvd, Surrey, BC V3T 2W1
-              </p>
+              <p className="address">Our Location: 10153 King George Blvd, Surrey, BC V3T 2W1</p>
             </div>
             <div className="col-6">
               <h1>Say hello!</h1>
@@ -176,32 +156,16 @@ const App: React.FC = () => {
               <div>Connect with us</div>
               <div>We are open source. Help improve icebox!</div>
               <button>Collaborate</button>
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                className="facebook"
-              >
+              <a href="https://www.facebook.com/" target="_blank" className="facebook">
                 {/* <img src="./images/facebook-logo.png" alt="facebook" /> */}
               </a>
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                className="linkedin"
-              >
+              <a href="https://www.linkedin.com/" target="_blank" className="linkedin">
                 {/* <img src="./images/linkedin-logo.png" alt="linked" /> */}
               </a>
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                className="instagram"
-              >
+              <a href="https://www.instagram.com/" target="_blank" className="instagram">
                 {/* <img src="./images/instagram-logo.png" alt="instagram" /> */}
               </a>
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                className="twitter"
-              >
+              <a href="https://twitter.com/" target="_blank" className="twitter">
                 {/* <img src="./images/twitter-logo.png" alt="twitter" /> */}
               </a>
             </div>
@@ -216,8 +180,7 @@ const App: React.FC = () => {
 
         <div className="footer-copyright">
           <hr />
-          &copy; 2019 Copyright Crispy Palm Trees | All rights reserved |
-          Software Developer | Zero Food Waste
+          &copy; 2019 Copyright Crispy Palm Trees | All rights reserved | Software Developer | Zero Food Waste
         </div>
       </footer>
     </div>
