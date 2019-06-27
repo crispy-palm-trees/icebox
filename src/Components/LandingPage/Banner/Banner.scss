@@ -1,0 +1,16 @@
+.app-banner {
+  height: 300px;
+  width: 100%;
+  background-image: url("./images/banner2.jpg");
+  background-repeat: repeat-x;
+  overflow: hidden;
+  z-index: -3;
+}
+
+.app-banner img {
+  width: 100%;
+}
+
+.button-group {
+  height: 500px;
+}
