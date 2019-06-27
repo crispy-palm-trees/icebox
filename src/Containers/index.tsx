@@ -10,7 +10,7 @@ const RootView: React.StatelessComponent<{}> = () => (
     <Helmet titleTemplate="IceBox - %s" defaultTitle="IceBox" />
 
     <main>
-      <Router>
+      <Router basename="/icebox">
         <div>
           <Route exact path="/" component={App} />
           <Route path="/login" component={Login} />
