@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/icebox/static/css/main.903b8a1e.chunk.css",
+    "main.js": "/icebox/static/js/main.f488becf.chunk.js",
+    "main.js.map": "/icebox/static/js/main.f488becf.chunk.js.map",
+    "runtime~main.js": "/icebox/static/js/runtime~main.bed20d08.js",
+    "runtime~main.js.map": "/icebox/static/js/runtime~main.bed20d08.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/icebox/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.8b46ad5d.chunk.js": "/icebox/static/js/2.8b46ad5d.chunk.js",
+    "static/js/2.8b46ad5d.chunk.js.map": "/icebox/static/js/2.8b46ad5d.chunk.js.map",
+    "index.html": "/icebox/index.html",
+    "precache-manifest.8ec7921cb4f86ae714348ce71dd6d78e.js": "/icebox/precache-manifest.8ec7921cb4f86ae714348ce71dd6d78e.js",
+    "service-worker.js": "/icebox/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/icebox/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.903b8a1e.chunk.css.map": "/icebox/static/css/main.903b8a1e.chunk.css.map",
+    "static/media/App.css": "/icebox/static/media/banner2.842ce123.jpg",
+    "static/media/book.png": "/icebox/static/media/book.32ac01c8.png",
+    "static/media/goose.jpg": "/icebox/static/media/goose.5fcffac1.jpg",
+    "static/media/swan.jpg": "/icebox/static/media/swan.de5432d0.jpg"
+  }
+}
