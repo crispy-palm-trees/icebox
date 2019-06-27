@@ -19,23 +19,19 @@ a:hover {
   cursor: pointer;
 }
 
-nav {
-  background-color: #334120;
-  color: white !important;
+.block-web {
+  padding: 0 20vw;
 }
 
-footer {
-  background-color: #412f11;
-  color: white;
+.block-mobile {
+  padding: 0 10vw;
 }
 
-.footer-filler-wrapper {
-  padding: 50px;
-}
-
-.footer-copyright {
+.center-icon {
   text-align: center;
-  font-size: 75%;
-  background-color: #271a05;
-  padding-bottom: 10px;
+}
+
+.custom-icon {
+  width: 30px;
+  height: 30px;
 }
