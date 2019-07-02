@@ -7,8 +7,8 @@ class Banner extends React.Component {
     return (
       <div className="app-banner">
         <div className="button-group">
-          <button>Login</button>
-          <button>Sign-up</button>
+          <button className="account-btn">Login</button>
+          <button className="account-btn">Sign-up</button>
         </div>
       </div>
     );
