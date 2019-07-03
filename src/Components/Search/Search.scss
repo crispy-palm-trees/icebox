@@ -1,0 +1,17 @@
+.app-seach {
+  height: 100vh;
+}
+
+.btn-container {
+  button:focus {
+    outline: none;
+  }
+  position: relative;
+  top: calc(80vh - 100px);
+  text-align: center;
+}
+
+.more-info-btn {
+  background: none;
+  border: none;
+}

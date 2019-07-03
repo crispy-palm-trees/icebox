@@ -12,7 +12,7 @@ import linkedin from "./images/linkedin.png";
 const AboutUs: React.FC = () => {
   return (
     <div className="app-about block-web">
-      <h1>Who are we?</h1>
+      <h1>Crispy Palm Trees</h1>
       <img className="crispy-logo" alt="cpt logo" />
       <p className="who-paragraph">
         We are Crispy Palm Trees; a pair of software developers, passionate on reducing food waste with the help of
@@ -30,7 +30,7 @@ const AboutUs: React.FC = () => {
               <a href="">
                 <img className="custom-icon" src={email} alt="email" />
               </a>
-              <a href="">
+              <a href="https://ca.linkedin.com/" target="_blank">
                 <img className="custom-icon" src={linkedin} alt="linkedin" />
               </a>
             </div>
@@ -43,7 +43,7 @@ const AboutUs: React.FC = () => {
               <a href="">
                 <img className="custom-icon" src={email} alt="email" />
               </a>
-              <a href="">
+              <a href="https://ca.linkedin.com/" target="_blank">
                 <img className="custom-icon" src={linkedin} alt="linkedin" />
               </a>
             </div>

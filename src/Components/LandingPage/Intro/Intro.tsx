@@ -11,7 +11,9 @@ const Intro: React.FC = () => {
         save your money, and why not save the earth as well! Discover a library full of food knowledge. Learn to better
         preserve your food and have a personal products tracker all at your fingertips.
       </p>
-      <div>Sign up today to start your food saving journey.</div>
+      <div>
+        <a>Sign up</a> today to start your food saving journey.
+      </div>
     </div>
   );
 };

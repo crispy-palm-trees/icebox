@@ -1,11 +1,10 @@
 import React from "react";
 
-import "./Navbar.scss";
-import "./../../styles.scss";
+import logo from "./../../../logo.svg";
 
-import logo from "./../../logo.svg";
+import "./NavbarSite.scss";
 
-class Navbar extends React.Component {
+class NavbarSite extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg">
@@ -15,20 +14,29 @@ class Navbar extends React.Component {
         </a>
         <div className="collapse navbar-collapse d-sm-inline-flex flex-sm-row-reverse">
           <ul className="navbar-nav ml-auto" id="navList">
-            <li className="nav-item active">
+            <li className="nav-item">
+              <a className="nav-link">Signup</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">Login</a>
+            </li>
+            <li className="nav-item active" hidden>
               <a className="nav-link">Home</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" hidden>
               <a className="nav-link">Food Library</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" hidden>
               <a className="nav-link">Grocery List</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" hidden>
               <a className="nav-link">Stats</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" hidden>
               <a className="nav-link">Calendar</a>
+            </li>
+            <li className="nav-item" hidden>
+              <a className="nav-link">Logout</a>
             </li>
           </ul>
         </div>
@@ -37,4 +45,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default NavbarSite;

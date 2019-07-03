@@ -8,14 +8,15 @@
 @import url("https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap");
 
 body {
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Didact Gothic", sans-serif !important;
   font-size: 125%;
+  overflow-x: hidden;
 }
 a {
   color: white;
 }
 a:hover {
-  color: rgb(41, 194, 62);
+  color: rgb(41, 194, 62) !important;
   cursor: pointer;
 }
 
