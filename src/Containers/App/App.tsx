@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.scss";
 
-import Navbar from "./../../Components/Navbar/Navbar";
+import NavbarSite from "./../../Components/Navbar/NavbarSite/NavbarSite";
+import NavbarLanding from "./../../Components/Navbar/NavBarLanding/NavbarLanding";
 import Banner from "./../../Components/LandingPage/Banner/Banner";
 import Intro from "./../../Components/LandingPage/Intro/Intro";
 import Marketing from "./../../Components/LandingPage/Marketing/Marketing";
@@ -14,8 +15,11 @@ import Footer from "./../../Components/LandingPage/Footer/Footer";
 const App: React.FC = () => {
   return (
     <div className="IceboxApp wrapper">
-      <Navbar />
+      <div className="search-container">
+        <NavbarSite />
+      </div>
       <div className="app-content">
+        <NavbarLanding />
         <Banner />
         <Intro />
         <Marketing />
