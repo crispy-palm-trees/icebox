@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 
-import NavbarSite from "./../../Components/Navbar/NavbarSite/NavbarSite";
+import Search from "./../../Components/Search/Search";
 import NavbarLanding from "./../../Components/Navbar/NavBarLanding/NavbarLanding";
 import Banner from "./../../Components/LandingPage/Banner/Banner";
 import Intro from "./../../Components/LandingPage/Intro/Intro";
@@ -9,14 +9,13 @@ import Marketing from "./../../Components/LandingPage/Marketing/Marketing";
 import AboutUs from "./../../Components/LandingPage/AboutUs/AboutUs";
 import Contact from "../../Components/LandingPage/Contact/Contact";
 import Footer from "./../../Components/LandingPage/Footer/Footer";
-
-// images
+import ScrollToTop from "./../../Components/ScrollToTop/ScrollToTop";
 
 const App: React.FC = () => {
   return (
     <div className="IceboxApp wrapper">
       <div className="search-container">
-        <NavbarSite />
+        <Search />
       </div>
       <div className="app-content">
         <NavbarLanding />
@@ -27,6 +26,7 @@ const App: React.FC = () => {
         <Contact />
       </div>
       <Footer />
+      {/* <ScrollToTop /> */}
     </div>
   );
 };
