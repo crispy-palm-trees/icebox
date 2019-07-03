@@ -3,8 +3,11 @@
 }
 
 .btn-container {
+  button:focus {
+    outline: none;
+  }
   position: relative;
-  top: 80vh;
+  top: calc(80vh - 100px);
   text-align: center;
 }
 
