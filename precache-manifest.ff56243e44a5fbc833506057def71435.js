@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd0fcb231bbbc4ea63941be3d5aa9331",
+    "revision": "ed954f0396d6f0682c3f0efa532f2f69",
     "url": "/icebox/index.html"
   },
   {
-    "revision": "a068dcd9683ab8988066",
+    "revision": "3f58a765d1a2dcd262a0",
     "url": "/icebox/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "98e4b5c187bd4708cb0a",
-    "url": "/icebox/static/css/main.85c23931.chunk.css"
+    "revision": "b33e5b1324e5dead17e6",
+    "url": "/icebox/static/css/main.03385d20.chunk.css"
   },
   {
-    "revision": "a068dcd9683ab8988066",
-    "url": "/icebox/static/js/2.749d27e0.chunk.js"
+    "revision": "3f58a765d1a2dcd262a0",
+    "url": "/icebox/static/js/2.0c8a6736.chunk.js"
   },
   {
-    "revision": "98e4b5c187bd4708cb0a",
-    "url": "/icebox/static/js/main.01e0105f.chunk.js"
+    "revision": "b33e5b1324e5dead17e6",
+    "url": "/icebox/static/js/main.5605192a.chunk.js"
   },
   {
     "revision": "05e43ee518d3e2625802",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/icebox/static/media/goose.5fcffac1.jpg"
   },
   {
-    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
-    "url": "/icebox/static/media/logo.ee7cd8ed.svg"
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "/icebox/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "de5432d0ac20412b307ddbfe6d38509b",
