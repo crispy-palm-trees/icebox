@@ -1,6 +1,8 @@
 import React from "react";
 
 import "./ScrollToTop.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 class ScrollToTop extends React.Component {
   scrollToNav() {
@@ -13,8 +15,7 @@ class ScrollToTop extends React.Component {
   render() {
     return (
       <div className="backToTop" onClick={e => this.scrollToNav()}>
-        ^
-        <img alt="Back To Top" />
+        <FontAwesomeIcon icon={faAngleUp} size="2x" color="white" />
       </div>
     );
   }
