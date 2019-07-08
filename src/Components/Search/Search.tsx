@@ -2,7 +2,7 @@ import React from "react";
 
 import NavbarSite from "./../Navbar/NavbarSite/NavbarSite";
 
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Search.scss";
@@ -19,7 +19,15 @@ class Search extends React.Component {
     return (
       <div className="app-search">
         <NavbarSite />
-        <h1>SEARCH</h1>
+        <div>
+          <div className="center-content">
+            <h1 className="title">icebox</h1>
+            <input className="search-input" placeholder="Search for a food product" />
+            <button className="search-btn">
+              <FontAwesomeIcon icon={faSearch} size="1x" color="grey" />
+            </button>
+          </div>
+        </div>
         <div className="btn-container">
           <button className="more-info-btn" onClick={e => this.scrollDown()}>
             <FontAwesomeIcon icon={faAngleDown} size="2x" color="grey" />
