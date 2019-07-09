@@ -26,7 +26,6 @@ const App: React.FC = () => {
         <Contact />
       </div>
       <Footer />
-      {/* <ScrollToTop /> */}
     </div>
   );
 };

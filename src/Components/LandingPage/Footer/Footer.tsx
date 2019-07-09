@@ -1,5 +1,7 @@
 import React from "react";
 
+import ScrollToTop from "./../../ScrollToTop/ScrollToTop";
+
 import "./Footer.scss";
 
 const Footer: React.FC = () => {
@@ -33,6 +35,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
+      <ScrollToTop />
       <div className="footer-copyright">
         <hr />
         &copy; 2019 Copyright Crispy Palm Trees | All rights reserved | Software Developer | Zero Food Waste
