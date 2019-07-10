@@ -8,17 +8,17 @@ class NavbarSite extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src={logo} />
           icebox
         </a>
         <div className="collapse navbar-collapse d-sm-inline-flex flex-sm-row-reverse">
           <ul className="navbar-nav ml-auto" id="navList">
             <li className="nav-item">
-              <a className="nav-link">Signup</a>
+              <a className="nav-link" href="/signup">Signup</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Login</a>
+              <a className="nav-link" href="login">Login</a>
             </li>
             <li className="nav-item active" hidden>
               <a className="nav-link">Home</a>

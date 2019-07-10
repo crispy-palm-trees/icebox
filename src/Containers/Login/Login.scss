@@ -1,16 +1,18 @@
 #loginContainer {
   position: relative;
-  top: 30%;
+  top: 10vh;
+  text-align: center;
   border: 2px solid #ececec;
   margin: 0 auto;
-  width: 20%;
-  padding: 40px;
+  padding: 50px;
+  width: 70vh;
 }
 
 #loginTitle {
   color: #1c4a80;
   font-weight: 700;
   margin-bottom: 30px;
+  font-size: 150%;
 }
 
 .login-icons {
@@ -19,7 +21,7 @@
 }
 
 .login-input {
-  font-family: "Raleway", sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   width: 65%;
   border-top: none;
   border-left: none;
@@ -32,6 +34,7 @@
 }
 
 ::placeholder {
+  font-family: "Didact Gothic", sans-serif;
   color: lightgray;
 }
 

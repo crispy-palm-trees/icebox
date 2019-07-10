@@ -1,16 +1,18 @@
 #signupContainer {
-  position: relative;
-  top: 30%;
-  border: 2px solid #ececec;
-  margin: 0 auto;
-  width: 20%;
-  padding: 40px;
+    position: relative;
+    top: 5vh;
+    text-align: center;
+    border: 2px solid #ececec;
+    margin: 0 auto;
+    padding: 50px;
+    width: 70vh;
 }
 
 #signupTitle {
   color: #1c4a80;
   font-weight: 700;
   margin-bottom: 20px;
+  font-size: 150%;
 }
 
 .signup-input {
@@ -28,10 +30,12 @@
 
 ::placeholder {
   color: lightgray;
+  font-family: "Didact Gothic", sans-serif;
 }
 
 #createAccountBtn {
-  font-family: "Raleway", sans-serif;
+
+  font-family: "Didact Gothic", sans-serif;
   width: 66%;
   height: 50px;
   color: white;
@@ -43,4 +47,8 @@
 
 #createAccountBtn:hover {
   cursor: pointer;
+}
+
+.already-have-account {
+  font-size: 85%;
 }
