@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "./../../../logo.svg";
 
@@ -15,31 +16,39 @@ class NavbarSite extends React.Component {
         <div className='collapse navbar-collapse d-sm-inline-flex flex-sm-row-reverse'>
           <ul className='navbar-nav ml-auto' id='navList'>
             <li className='nav-item'>
-              <a className='nav-link' href='/icebox/signup'>
+              <Link to='/signup' className='nav-link'>
                 Signup
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/icebox/login'>
+              <Link to='/login' className='nav-link'>
                 Login
-              </a>
+              </Link>
             </li>
             <li className='nav-item' hidden>
-              <a className='nav-link'>Food Library</a>
+              <Link to='/foodlib' className='nav-link'>
+                Food Library
+              </Link>
             </li>
             <li className='nav-item' hidden>
-              <a className='nav-link'>Grocery List</a>
+              <Link to='/grocery' className='nav-link'>
+                Grocery List
+              </Link>
             </li>
             <li className='nav-item' hidden>
-              <a className='nav-link'>Stats</a>
+              <Link to='/stats' className='nav-link'>
+                Stats
+              </Link>
             </li>
             <li className='nav-item' hidden>
-              <a className='nav-link'>Calendar</a>
+              <Link to='/calendar' className='nav-link'>
+                Calendar
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/icebox'>
+              <Link to='/' className='nav-link'>
                 Logout
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
