@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/icebox/static/css/main.03385d20.chunk.css",
-    "main.js": "/icebox/static/js/main.5605192a.chunk.js",
-    "main.js.map": "/icebox/static/js/main.5605192a.chunk.js.map",
+    "main.css": "/icebox/static/css/main.a9c651d0.chunk.css",
+    "main.js": "/icebox/static/js/main.54529539.chunk.js",
+    "main.js.map": "/icebox/static/js/main.54529539.chunk.js.map",
     "runtime~main.js": "/icebox/static/js/runtime~main.bed20d08.js",
     "runtime~main.js.map": "/icebox/static/js/runtime~main.bed20d08.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/icebox/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.0c8a6736.chunk.js": "/icebox/static/js/2.0c8a6736.chunk.js",
-    "static/js/2.0c8a6736.chunk.js.map": "/icebox/static/js/2.0c8a6736.chunk.js.map",
+    "static/js/2.87df6034.chunk.js": "/icebox/static/js/2.87df6034.chunk.js",
+    "static/js/2.87df6034.chunk.js.map": "/icebox/static/js/2.87df6034.chunk.js.map",
     "index.html": "/icebox/index.html",
-    "precache-manifest.ff56243e44a5fbc833506057def71435.js": "/icebox/precache-manifest.ff56243e44a5fbc833506057def71435.js",
+    "precache-manifest.fa291d0406fe9557a662d5a87e4f33d8.js": "/icebox/precache-manifest.fa291d0406fe9557a662d5a87e4f33d8.js",
     "service-worker.js": "/icebox/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/icebox/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.03385d20.chunk.css.map": "/icebox/static/css/main.03385d20.chunk.css.map",
-    "static/media/Banner.scss": "/icebox/static/media/banner2.842ce123.jpg",
+    "static/css/main.a9c651d0.chunk.css.map": "/icebox/static/css/main.a9c651d0.chunk.css.map",
+    "static/media/Banner.scss": "/icebox/static/media/banner.551484f0.jpg",
     "static/media/book.png": "/icebox/static/media/book.32ac01c8.png",
     "static/media/goose.jpg": "/icebox/static/media/goose.5fcffac1.jpg",
-    "static/media/logo.svg": "/icebox/static/media/logo.5d5d9eef.svg",
+    "static/media/logo.svg": "/icebox/static/media/logo.ee7cd8ed.svg",
+    "static/media/surrey-central-map.png": "/icebox/static/media/surrey-central-map.9a8daf52.png",
     "static/media/swan.jpg": "/icebox/static/media/swan.de5432d0.jpg"
   }
 }
