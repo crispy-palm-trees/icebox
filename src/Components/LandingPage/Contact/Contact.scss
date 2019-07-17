@@ -1,15 +1,12 @@
-.app-contact {
-  width: 100%;
+.contact-form {
+  background-color: #d8dfd1;
+}
+
+.map-container {
+  padding: 0 !important;
 }
 
 .map {
-  width: 80%;
-  height: 80%;
-  padding: none !important;
-  text-align: center;
-}
-
-.contact-form {
-  background-color: #d8dfd1;
-  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
 }

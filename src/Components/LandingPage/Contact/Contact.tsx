@@ -1,6 +1,5 @@
 import React from "react";
 
-import GoogleMaps from "./../../GoogleMapsAPI/Maps";
 import Form from "./../../Form/Form";
 
 import "./Contact.scss";
@@ -10,10 +9,10 @@ class Contact extends React.Component {
   render() {
     return (
       <div className='app-contact row'>
-        <div className='col-9 map'>
-          <img src={map} />
+        <div className='map-container col-8'>
+          <img className='map' src={map} />
         </div>
-        <div className='contact-form col-3'>
+        <div className='contact-form col-4'>
           <Form />
         </div>
       </div>
