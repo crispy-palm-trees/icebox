@@ -20,9 +20,6 @@ class NavbarSite extends React.Component {
             <li className="nav-item">
               <a className="nav-link" href="login">Login</a>
             </li>
-            <li className="nav-item active" hidden>
-              <a className="nav-link">Home</a>
-            </li>
             <li className="nav-item" hidden>
               <a className="nav-link">Food Library</a>
             </li>
@@ -35,8 +32,8 @@ class NavbarSite extends React.Component {
             <li className="nav-item" hidden>
               <a className="nav-link">Calendar</a>
             </li>
-            <li className="nav-item" hidden>
-              <a className="nav-link">Logout</a>
+            <li className="nav-item">
+              <a className="nav-link" href="/">Logout</a>
             </li>
           </ul>
         </div>

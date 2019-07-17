@@ -10,24 +10,27 @@ import AboutUs from "./../../Components/LandingPage/AboutUs/AboutUs";
 import Contact from "../../Components/LandingPage/Contact/Contact";
 import Footer from "./../../Components/LandingPage/Footer/Footer";
 import ScrollToTop from "./../../Components/ScrollToTop/ScrollToTop";
+import { render } from "react-dom";
 
-const App: React.FC = () => {
-  return (
-    <div className="IceboxApp wrapper">
-      <div className="search-container">
-        <Search />
+class App extends React.Component {
+  render() {
+    return (
+      <div className='IceboxApp wrapper'>
+        <div className='search-container'>
+          <Search />
+        </div>
+        <div className='app-content'>
+          <NavbarLanding />
+          <Banner />
+          <Intro />
+          <Marketing />
+          <AboutUs />
+          <Contact />
+        </div>
+        <Footer />
       </div>
-      <div className="app-content">
-        <NavbarLanding />
-        <Banner />
-        <Intro />
-        <Marketing />
-        <AboutUs />
-        <Contact />
-      </div>
-      <Footer />
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default App;
