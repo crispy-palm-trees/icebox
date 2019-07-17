@@ -2,12 +2,14 @@
   width: 100%;
 }
 
-#map {
-  height: 600px;
+.map {
+  width: 80%;
+  height: 80%;
+  padding: none !important;
+  text-align: center;
 }
 
 .contact-form {
-  z-index: -3;
   background-color: #d8dfd1;
   width: 100%;
 }
