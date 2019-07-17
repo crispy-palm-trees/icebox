@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5aa37cfc35b527490ae6cc50dc4ba64f",
+    "revision": "a275125ce00d59f5dbd42d0f069daa75",
     "url": "/icebox/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/icebox/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "f20e84501835169cbf3d",
-    "url": "/icebox/static/css/main.a9c651d0.chunk.css"
+    "revision": "67c43cbedede73048976",
+    "url": "/icebox/static/css/main.c3951bac.chunk.css"
   },
   {
     "revision": "3c1bbc56da6affecaef3",
     "url": "/icebox/static/js/2.87df6034.chunk.js"
   },
   {
-    "revision": "f20e84501835169cbf3d",
-    "url": "/icebox/static/js/main.54529539.chunk.js"
+    "revision": "67c43cbedede73048976",
+    "url": "/icebox/static/js/main.2983cea5.chunk.js"
   },
   {
     "revision": "05e43ee518d3e2625802",
