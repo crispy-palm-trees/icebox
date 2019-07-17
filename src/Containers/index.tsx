@@ -7,14 +7,14 @@ import Signup from "./Signup/Signup";
 
 const RootView: React.StatelessComponent<{}> = () => (
   <Fragment>
-    <Helmet titleTemplate="IceBox - %s" defaultTitle="IceBox" />
+    <Helmet titleTemplate='IceBox - %s' defaultTitle='IceBox' />
 
     <main>
-      <Router basename="/icebox">
+      <Router basename='/icebox'>
         <div>
-          <Route exact path="/" component={App} />
-          <Route path="/login" component={Login} />
-          <Route path="/signup" component={Signup} />
+          <Route exact path='/' component={App} />
+          <Route path='/login' component={Login} />
+          <Route path='/signup' component={Signup} />
         </div>
       </Router>
     </main>

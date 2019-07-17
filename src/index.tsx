@@ -10,10 +10,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./styles.scss";
 import history from "./Utils/history";
 
-//const store = createStore();
-
-//ReactDOM.render(document.getElementById("root"));
-
 const store = createStore(mainReducer);
 
 ReactDOM.render(
